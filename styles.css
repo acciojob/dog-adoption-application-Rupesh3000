@@ -1,2 +1,56 @@
 
 /* Your CSS Code here. */
+
+      body {
+         font-family: Arial, sans-serif;
+         margin: 20px;
+         background-color: #f7f7f7;
+      }
+
+      form {
+         max-width: 400px;
+         margin: auto;
+         background: #fff;
+         padding: 20px;
+         border-radius: 8px;
+         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      label {
+         display: block;
+         margin: 10px 0 5px;
+         font-weight: bold;
+      }
+
+      input[type="text"],
+      multiSelect,
+      textarea {
+         width: 100%;
+         padding: 8px;
+         margin-bottom: 10px;
+         border: 1px solid #ccc;
+         border-radius: 4px;
+      }
+
+      input[type="checkbox"] {
+         margin-right: 8px;
+      }
+
+      multiSelect[multiple] {
+         height: 100px;
+      }
+
+      button {
+         background: #28a745;
+         color: white;
+         padding: 10px 15px;
+         border: none;
+         border-radius: 4px;
+         font-size: 16px;
+         cursor: pointer;
+      }
+
+      button:hover {
+         background: #218838;
+      }
+   
